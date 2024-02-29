@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="h-[100vh]">
       <Navbar />
-      <main className="">
+      <main className="flex flex-col p-2 justify-center items-center">
         <Outlet />
       </main>
       <footer>

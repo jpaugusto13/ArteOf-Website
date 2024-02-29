@@ -11,6 +11,9 @@ export default function Navbar() {
           <ul className="flex gap-5">
             <li>Empresa</li>
             <li>
+              <Link to="/calculadora">Calculadora</Link>
+            </li>
+            <li>
               <p>Produtos</p>
               <ul>
                 <li>Canecas</li>
